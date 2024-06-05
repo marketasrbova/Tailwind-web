@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@layer components{
+    .light-button-1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.2951);
+        border-width: 2px;
+        border-radius: 2px;
+        color: rgba(255, 255, 255, 1);;
+    }
+    .light-button-2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-style: solid;
+        border-width: 2px;
+        border-color: rgba(190, 99, 97, 1);
+        border-radius: 2px;
+        color: rgba(190, 99, 97, 1);
+    }
+    .dark-button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-style: solid;
+        border-width: 2px;
+        border-color: rgba(43, 43, 43, 1);
+        border-radius: 2px;
+        color: rgba(43, 43, 43, 1);
+        background-color: white;
+    }
+    .email-button{
+        display: flex;
+        align-items: center;
+        justify-content:flex-start;
+        border-style: solid;
+        border-width: 2px;
+        border-color: rgba(218, 218, 218, 1);
+        border-radius: 2px;
+        color: rgba(51, 51, 51, 0.5);
+        background-color: white;
+        padding: 0.5rem;
+    }
+}
+
+@layer utilities{
+    .bg-custom-image{
+        background-image: url(https://s3-alpha-sig.figma.com/img/965b/0f9f/8ad2a924e49fd171bc8d0dc3990997ec?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dZz3f9JBJdNbfzYr4RiZVgStQaZhS1EUEvIcue4VeulIrjsStv4oKfqYubquxTLczVn~WUHsCnNd-L0CTJglUGujQYsvzmllIDGGpKhzUixZ1PtMfYna2MFvReoXGNqJYO~hLLfFGW6GQmKa1BrozZ0TAZBU4M4u2yCCh-wPa~MVpxAG4XjYZkS0F3c3gA-KXscpZbsqOyvstpiiwPcz2Q29P4EczPbchXGWon9mdwnMuIt4Z-H4zt0G0-y3acAaT8KZMZcCJ6QIdxLt7I9JapKiRCaj-VOWE6l2kk3abKumVTmrUceQtfLj6c1H6hrn7rW0iDg79QgPX1EBF1mBDQ__);
+    }
+}
